@@ -4,7 +4,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  /* color: #444444; */
 }
 
 a {
@@ -95,38 +95,6 @@ h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
-}
-
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-#header {
-  transition: all 0.5s;
-  z-index: 997;
-  padding: 15px 0;
-}
-
-#header.header-scrolled,
-#header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
-}
-
-#header .logo {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-#header .logo a {
-  color: #fff;
-}
-
-#header .logo img {
-  max-height: 40px;
 }
 
 
@@ -841,7 +809,7 @@ section {
   padding: 22px 30px;
   border-radius: 5px;
   line-height: 1.8;
-  
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .content-2{
@@ -881,7 +849,7 @@ section {
   border-radius: 3px;
   margin-top: 12px;
   margin-left: 20px;
-  width: 105px;
+  width: 120px;
   font-weight: 600;
   color: #fff;
   white-space: nowrap;
@@ -891,6 +859,7 @@ section {
 @media (min-width: 769px) {
   .card{
     width: 90%;
+    padding: 22px 150px;
   }
 }
 
