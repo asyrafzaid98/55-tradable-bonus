@@ -329,6 +329,7 @@ section {
   animation-delay: 0.8s;
   margin-top: 6px;
   border: 2px solid #47b2e4;
+  cursor: pointer;
 }
 
 .about .content .btn-learn-more:hover {
@@ -497,6 +498,7 @@ section {
   margin-bottom: 30px;
 }
 
+
 .skills .content ul {
   list-style: none;
   padding: 0;
@@ -564,6 +566,7 @@ section {
   transition: all ease-in-out 0.4s;
   background: #fff;
   width: 100%;
+  height: 100%;
 }
 
 .services .icon-box .icon {
@@ -574,6 +577,37 @@ section {
   color: #47b2e4;
   font-size: 36px;
   transition: 0.3s;
+}
+
+.services .wrap-learn-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.services .btn-learn-more {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.3s;
+  line-height: 1;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  background: #47b2e4;
+  color: #fff;
+  cursor: pointer;
+}
+
+.services .btn-learn-more:hover {
+  background: transparent;
+  border: 2px solid #47b2e4;
+  color: #47b2e4;
+  text-decoration: none;
 }
 
 .services .icon-box h4 {
@@ -705,9 +739,6 @@ section {
   transform: translateY(-10px);
 }
 
-/* .team .member .member-info {
-  padding-left: 30px;
-} */
 
 .team .member h4 {
   font-weight: 700;
@@ -854,6 +885,7 @@ section {
   color: #fff;
   white-space: nowrap;
   margin: 10px auto;
+  cursor: pointer;
 }
 
 @media (min-width: 769px) {
