@@ -888,6 +888,10 @@ section {
   cursor: pointer;
 }
 
+.label{
+  cursor: pointer;
+}
+
 @media (min-width: 769px) {
   .card{
     width: 90%;
