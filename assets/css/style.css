@@ -696,7 +696,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 #team{
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(https://assets.codepen.io/t-6595/Register-bg.png) fixed;
+  background: linear-gradient(rgba(40, 58, 90, 0.724), rgba(40, 58, 90, 0.9)), url(https://assets.codepen.io/t-6595/Register-bg.png) fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
