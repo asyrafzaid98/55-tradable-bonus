@@ -104,7 +104,9 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: #37517e;
+  background: url("https://assets.codepen.io/t-6595/background-hero.png") fixed center right;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #hero .container {
